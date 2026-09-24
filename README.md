@@ -13,15 +13,3 @@ A structured repository containing machine learning workflows, exploratory data 
   - XGBoost Classifier (`model.py`)
 - **Predictions & Submissions**: Evaluation, generating Kaggle-ready submission files (`prediction.py` and `submissions/`).
 
-## Setup & Usage
-
-```bash
-# Clone the repository
-git clone https://github.com/siddharth-s2011-cyber/Kaggle_Submissions.git
-cd Kaggle_Submissions
-
-# Create virtual environment & install requirements
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
